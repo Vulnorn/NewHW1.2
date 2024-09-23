@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            string name, zodiac, profession;
+            string name;
+            string zodiac;
+            string profession;
             int age;
 
             Console.WriteLine($"Как вас зовут?");
@@ -15,6 +17,7 @@
             zodiac = Console.ReadLine();
             Console.WriteLine($"Чем занимаетесь?");
             profession = Console.ReadLine();
+
             Console.WriteLine($"Привет {name} ого тебе исполнилось уже {age} твой знак зодиака {zodiac} и ты занимаешься {profession}");
             Console.ReadKey();
         }
